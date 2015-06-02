@@ -240,7 +240,8 @@ namespace Platformer
         /// <returns>The new tile.</returns>
         private Tile LoadTile(string name, TileCollision collision)
         {
-            return new Tile(Content.Load<Texture2D>("Tiles/mario-block.png"), collision);
+            
+        return new Tile(Content.Load<Texture2D>("Tiles/" + name), collision);
         }
 
 

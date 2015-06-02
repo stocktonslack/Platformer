@@ -364,8 +364,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tiles\mario-block.png">
-      <Name>mario-block</Name>
+    <Compile Include="Tiles\block.png">
+      <Name>block</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
